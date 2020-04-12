@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XamlProjectMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Files>
+    <XamlFileMeta>
+      <FilePath>D:\Aircharts\AIRCHARTS\AIRCHARTS\App.xaml</FilePath>
+      <Hash>B9-67-08-83-9A-4D-71-13-5C-09-C9-9F-DE-1E-60-15</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Aircharts\AIRCHARTS\AIRCHARTS\AppShell.xaml</FilePath>
+      <Hash>E2-94-73-82-F9-A6-FD-5F-A1-71-81-FC-02-E3-8A-08</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>D:\Aircharts\AIRCHARTS\AIRCHARTS\Views\LoginPage.xaml</FilePath>
+      <Hash>DE-A9-53-F6-64-E2-18-11-73-8B-63-7B-85-64-53-1F</Hash>
+      <Properties>
+        <string>BackgroundColor</string>
+        <string>BackgroundImageSource</string>
+      </Properties>
+    </XamlFileMeta>
+  </Files>
+</XamlProjectMeta>

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:vm="clr-namespace:AIRCHARTS.ViewModels"
+             mc:Ignorable="d"
+             x:Class="AIRCHARTS.Views.LoginPage" BackgroundColor="#000000" BackgroundImageSource="backgroundblur.png">
+            
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <vm:LoginViewModel x:Key="vm"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        
+        <Grid Margin="16,0"
+              BindingContext="{StaticResource vm}">
+            <StackLayout x:Name="loginStackLayout"
+                         VerticalOptions="Center"
+                         IsVisible="True">
+                <Entry Placeholder="Email"
+                       Keyboard="Email"
+                       Text="{Binding Email, Mode=TwoWay}" 
+                       PlaceholderColor="#FFFFFF" 
+                       HorizontalOptions="Center"
+                       WidthRequest="250"
+                       Opacity="0.7"
+                       />
+                <Entry Placeholder="Password"
+                       Text="{Binding Password, Mode=TwoWay}"
+                       IsPassword="True"
+                       PlaceholderColor="#FFFFFF" 
+                       HorizontalOptions="Center"
+                       WidthRequest="250"
+                       Opacity="0.7"/>
+                <Button Text="Login"
+                        Command="{Binding LoginCommand}"
+                        CommandParameter="{Binding CanLogin}"
+                        CornerRadius="30" 
+                        HorizontalOptions="Center"
+                        WidthRequest="200"
+                        Opacity="0.3" 
+                        BackgroundColor="#000000" 
+                        FontAttributes="Bold" 
+                        TextColor="#FFFFFF"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label Text="Don't have an account?"/>
+                    <Label Text="Register!"
+                           Style="{StaticResource accentLabel}">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="RegisterLabel_Tapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+                <Image Source="LOGONoBackground.png" WidthRequest="250" HeightRequest="250"/>
+            </StackLayout>
+            <StackLayout x:Name="registerStackLayout"
+                         VerticalOptions="Center"
+                         IsVisible="False">
+                <Entry Placeholder="Name"
+                       Text="{Binding Name, Mode=TwoWay}"
+                       PlaceholderColor="#FFFFFF" 
+                       HorizontalOptions="Center"
+                       WidthRequest="250"
+                       Opacity="0.7"/>
+                <Entry Placeholder="Email"
+                       Keyboard="Email"
+                       Text="{Binding Email, Mode=TwoWay}"
+                       PlaceholderColor="#FFFFFF" 
+                       HorizontalOptions="Center"
+                       WidthRequest="250"
+                       Opacity="0.7"/>
+                <Entry Placeholder="Password"
+                       Text="{Binding Password, Mode=TwoWay}"
+                       IsPassword="True"
+                       PlaceholderColor="#FFFFFF" 
+                       HorizontalOptions="Center"
+                       WidthRequest="250"
+                       Opacity="0.7"/>
+                <Entry Placeholder="Confirm Password"
+                       Text="{Binding ConfirmPassword, Mode=TwoWay}"
+                       IsPassword="True"
+                       PlaceholderColor="#FFFFFF" 
+                       HorizontalOptions="Center"
+                       WidthRequest="250"
+                       Opacity="0.7"/>
+                <Button Text="Register"
+                        Command="{Binding RegisterCommand}"
+                        CommandParameter="{Binding CanRegister}"
+                        CornerRadius="30"
+                        HorizontalOptions="Center"
+                        WidthRequest="200" 
+                        Opacity="0.3" 
+                        BackgroundColor="#000000"
+                        FontAttributes="Bold" 
+                        TextColor="#FFFFFF"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label Text="Already have an account?"/>
+                    <Label Text="Login!"
+                           Style="{StaticResource accentLabel}">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="LoginLabel_Tapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+                <Image Source="LOGONoBackground.png" WidthRequest="250" HeightRequest="250"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

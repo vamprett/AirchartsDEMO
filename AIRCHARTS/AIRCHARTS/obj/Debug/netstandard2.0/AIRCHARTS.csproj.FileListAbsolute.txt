@@ -1,0 +1,15 @@
+D:\Aircharts\AIRCHARTS\AIRCHARTS\bin\Debug\netstandard2.0\AIRCHARTS.deps.json
+D:\Aircharts\AIRCHARTS\AIRCHARTS\bin\Debug\netstandard2.0\AIRCHARTS.dll
+D:\Aircharts\AIRCHARTS\AIRCHARTS\bin\Debug\netstandard2.0\ref\AIRCHARTS.dll
+D:\Aircharts\AIRCHARTS\AIRCHARTS\bin\Debug\netstandard2.0\AIRCHARTS.pdb
+D:\Aircharts\AIRCHARTS\AIRCHARTS\obj\Debug\netstandard2.0\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Aircharts\AIRCHARTS\AIRCHARTS\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+D:\Aircharts\AIRCHARTS\AIRCHARTS\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+D:\Aircharts\AIRCHARTS\AIRCHARTS\obj\Debug\netstandard2.0\AIRCHARTS.csproj.CoreCompileInputs.cache
+D:\Aircharts\AIRCHARTS\AIRCHARTS\obj\Debug\netstandard2.0\AIRCHARTS.AssemblyInfoInputs.cache
+D:\Aircharts\AIRCHARTS\AIRCHARTS\obj\Debug\netstandard2.0\AIRCHARTS.AssemblyInfo.cs
+D:\Aircharts\AIRCHARTS\AIRCHARTS\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Aircharts\AIRCHARTS\AIRCHARTS\obj\Debug\netstandard2.0\AIRCHARTS.dll
+D:\Aircharts\AIRCHARTS\AIRCHARTS\obj\Debug\netstandard2.0\ref\AIRCHARTS.dll
+D:\Aircharts\AIRCHARTS\AIRCHARTS\obj\Debug\netstandard2.0\AIRCHARTS.pdb
+D:\Aircharts\AIRCHARTS\AIRCHARTS\obj\Debug\netstandard2.0\AIRCHARTS.csprojAssemblyReference.cache
